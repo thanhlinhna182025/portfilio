@@ -1,0 +1,10 @@
+.float {
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+}
+.float > span {
+  font-size: 2rem;
+  color: var(--blueCard);
+  font-weight: 600;
+}
