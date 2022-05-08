@@ -59,17 +59,17 @@ const Testimanial = () => {
         slidesPerView={1}
         spaceBetween={40}
         loop={true}
-        // pagination={{
-        //   clickable: false,
-        // }}
-        // modules={[Pagination]}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[Pagination]}
       >
         {clients.map((client) => (
           <SwiperSlide key={client.id}>
             <div className="t-Wrapper">
               <div className="t-Item">
                 <div className="t-ItemWrapper">
-                  <img src={client.img} />
+                  <img src={client.img} alt="clientphoto" />
                   <span
                     style={{
                       color: darkMode ? "black" : "",

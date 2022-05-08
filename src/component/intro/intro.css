@@ -1,7 +1,6 @@
 .intro {
   display: flex;
   height: 77vh;
-  margin-top: 6rem;
 }
 .i-left {
   display: flex;
@@ -71,7 +70,11 @@
   .intro {
     flex-direction: column;
     gap: 2rem 0;
-    margin-bottom: 8rem;
+    margin-bottom: 20rem;
+    margin-top: 2rem;
+  }
+  .i-left {
+    text-align: center;
   }
   .i-right {
     transform: scale(0.7);

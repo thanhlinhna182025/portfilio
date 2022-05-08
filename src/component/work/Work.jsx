@@ -39,16 +39,16 @@ const Work = () => {
           whileInView={{ rotate: 0 }}
         >
           <div className="w-secCirle">
-            <img src={Upwork} atl="upworkLogo" />
+            <img src={Upwork} alt="upworkLogo" />
           </div>
           <div className="w-secCirle">
-            <img src={Fiverr} atl="FiverrLogo" />
+            <img src={Fiverr} alt="FiverrLogo" />
           </div>
           <div className="w-secCirle">
-            <img src={Amazon} atl="AmazonLogo" />
+            <img src={Amazon} alt="AmazonLogo" />
           </div>
           <div className="w-secCirle">
-            <img src={Shopify} atl="ShopifyLogo" />
+            <img src={Shopify} alt="ShopifyLogo" />
           </div>
         </motion.div>
         <div className="circleBg circleBlue"></div>

@@ -35,6 +35,9 @@
   flex: 2;
 }
 @media screen and (max-width: 480px) {
+  .n-wrapper {
+    gap: 1rem;
+  }
   .n-list {
     display: none;
   }

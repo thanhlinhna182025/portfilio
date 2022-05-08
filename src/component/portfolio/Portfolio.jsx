@@ -33,19 +33,49 @@ const Portfolio = () => {
         modules={[Pagination]}
       >
         <SwiperSlide>
-          <img src={Portfolio1} alt="Portfolio1" />
+          <a
+            href="https://gracious-franklin-5d4242.netlify.app/login"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={Portfolio1} alt="Portfolio1" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Portfolio2} alt="Portfolio2" />
+          <a
+            href="https://admirable-narwhal-8b1b90.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={Portfolio2} alt="Portfolio2" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Portfolio3} alt="Portfolio3" />
+          <a
+            href="https://github.com/thanhlinhna182025"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={Portfolio3} alt="Portfolio3" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Portfolio4} alt="Portfolio4" />
+          <a
+            href="https://github.com/thanhlinhna182025"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={Portfolio4} alt="Portfolio4" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Portfolio5} alt="Portfolio5" />
+          <a
+            href="https://github.com/thanhlinhna182025"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={Portfolio5} alt="Portfolio5" />
+          </a>
         </SwiperSlide>
       </Swiper>
     </div>

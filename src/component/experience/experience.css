@@ -48,7 +48,7 @@
 }
 @media screen and (max-width: 480px) {
   .experience {
-    gap: 2rem;
-    margin-bottom: 4rem;
+    gap: 1rem;
+    margin-bottom: 1rem;
   }
 }

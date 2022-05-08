@@ -14,7 +14,6 @@ import { motion } from "framer-motion";
 
 const Intro = () => {
   const { darkMode } = useContext(ThemeContext);
-  const transition = { duration: 2 };
   return (
     <div className="intro">
       <div className="i-left">
